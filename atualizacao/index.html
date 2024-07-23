@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.nba.com/safari-pinned-tab.svg" type="image/svg">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/script.js" defer></script>
+    <title>Cultura NBA</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><img src="src/media/logo-nba.svg" alt="Logo NBA"></a>
+        </div>
+
+        <!-- MENU DESKTOP -->
+        <div class="menu-desktop">
+            <nav>
+                <ul class="link-menu">
+                    <li><a href="#historia-da-liga">História da Liga</a></li>
+                    <li><a href="#conferencias-e-franquias">Conferências e Franquias</a></li>
+                    <li><a href="#draft">Draft</a></li>
+                    <li><a href="#temporada-regular">Temporada Regular</a></li>
+                    <li><a href="#playoffs">Playoffs</a></li>
+                    <li><a href="#finais">Finais</a></li>
+                    <li><a href="#maior-campeao">Maior Campeão</a></li>
+                    <li><a href="#premios">Prêmios</a></li>
+                    <li><a href="#all-star">ALL-STAR Game</a></li>
+                    <li><a href="#collabs">COLLABS</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="btn-site-nba">
+            <li>
+                <a href="https://www.nba.com/" target="_blank">Site Oficial NBA</a>
+            </li>
+        </div>
+
+        <!-- MENU MOBILE -->
+        <div class="btn-abrir-menu" id="btn-menu">
+            <img src="https://img.icons8.com/?size=25&id=36389&format=png&color=000000" alt="abrir menu">
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile">
+            <div class="btn-fechar">
+                <img src="https://img.icons8.com/?size=25&id=8112&format=png&color=000000" alt="fechar menu">
+            </div>
+            <nav>
+                <ul class="link-menu">
+                    <li><a href="#historia-da-liga">História da Liga</a></li>
+                    <li><a href="#conferencias-e-franquias">Conferências e Franquias</a></li>
+                    <li><a href="#draft">Draft</a></li>
+                    <li><a href="#temporada-regular">Temporada Regular</a></li>
+                    <li><a href="#playoffs">Playoffs</a></li>
+                    <li><a href="#finais">Finais</a></li>
+                    <li><a href="#maior-campeao">Maior Campeão</a></li>
+                    <li><a href="#premios">Prêmios</a></li>
+                    <li><a href="#all-star">ALL-STAR Game</a></li>
+                    <li><a href="#collabs">COLLABS</a></li>
+                    <li><a href="https://www.nba.com/" class="btn-site-nba-mobile">Site Oficial NBA</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="overlay-menu" id="overlay-menu"></div>
+    </header>
+
+    <main>
+        <!-- BOTOES PLAY/PAUSE -->
+        <img class="btn-pause" id="btn-pause" src="https://img.icons8.com/?size=100&id=9987&format=png&color=000000" alt="botao pause">
+        <img class="btn-play" id="btn-play" src="https://img.icons8.com/?size=100&id=9978&format=png&color=000000" alt="botao play">
+        <audio autoplay id="audio" loop>
+            <source src="src/songs/Bow Wow, Fabolous, Fundisha, Jermaine Dupri - Basketball (Official Music Video) (320) completa.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- BANNER INICIAL DA PÁGINA -->
+        <section id="inicio">
+            <div class="banner-inicial-1">
+                <img src="src/media/banner-inicial.jpg" alt="" class="banner banner-inicial">
+            </div>
+        </section>
+
+        <!-- HISTORIA DA LIGA -->
+        <section id="historia-da-liga">
+            <img src="src/media/banner-historia.png" alt="arte jogadores" class="banner banner-historia-liga">
+            <div class="content">
+                <h1>História da Liga</h1>
+                <p>A NBA (National Basketball Association) surgiu em 1946 como a Basketball Association of America (BAA). Ela foi fundada por um grupo de proprietários de arenas de hóquei no gelo que buscavam preencher suas arenas durante a temporada de verão.</p>
+                <p>Em 1949, a BAA fundiu-se com a National Basketball League (NBL), formando a NBA que conhecemos atualmente, que completou 78 anos de existência.</p>
+                <p>A liga cresceu rapidamente em popularidade, tornando-se o principal campeonato profissional de basquete nos Estados Unidos e no mundo. Times icônicos, como os Boston Celtics e os Los Angeles Lakers, contribuíram significativamente para sua história e legado.</p>
+            </div>
+        </section>
+
+        <!-- CONFERENCIAS E FRANQUIAS -->
+        <section id="conferencias-e-franquias">
+            <img src="src/media/conferencia.jpg" alt="conferências" class="banner banner-conferencia">
+            <div class="content">
+                <h1>Conferências e Franquias</h1>
+                <p>A NBA se originou em 1946 com 11 times e, por meio de uma sequência de expansões, reduções e realocações de times, atualmente consiste em 30 times. Os Estados Unidos abrigam 29 times, e o outro está no Canadá.</p>
+                <p>A atual organização da liga divide os 30 times em duas conferências, cada uma com três divisões de cinco times.</p>
+                <p>O alinhamento divisionário atual foi introduzido na temporada 2004-05, refletindo a distribuição da população dos Estados Unidos e do Canadá como um todo.</p>
+            </div>
+        </section>
+        
+        <!-- DRAFT -->
+        <section id="draft">
+            <img src="src/media/draft-2018.jpg" alt="draft 2018" class="banner banner-draft">
+            <div class="content">
+                <h1>Draft</h1>
+                <p>Antes do início da temporada, em meados de julho, a escolha dos novos jogadores do basquete profissional da NBA é feita em um evento anual chamado draft.</p>
+                <p>As equipes com as piores campanhas na temporada anterior têm vantagem no sorteio que decide quem escolhe os primeiros do ranking elaborado durante o campeonato universitário.</p>
+                <p>Após o recrutamento, que é feito em duas fases, 60 jogadores são incorporados à NBA. No entanto, apenas aqueles selecionados com as melhores escolhas (primeira rodada) têm um contrato garantido.</p>
+            </div>
+        </section>
+
+        <div class="banner-competicao">
+            <h1>Formato da Competição</h1>
+        </div>
+
+        <!-- TEMPORADA REGULAR -->
+        <section id="temporada-regular">
+            <img src="src/media/banner-temporada.jpg" alt="times" class="banner banner-temporada-regular">
+            <div class="content">
+                <h1>Temporada Regular</h1>
+                <p>A temporada regular começa em meados de outubro e segue até meados de abril do ano seguinte.</p>
+                <p>Cada time joga 82 jogos contra todos os outros, podendo enfrentar alguns times 3 ou 4 vezes.</p>
+                <p>Contra times da mesma divisão, são sempre 4 jogos, enquanto, para as outras divisões, usa-se um sistema que depende de quantas vezes enfrentou aquele time nas temporadas anteriores.</p>
+                <p>Apesar disso, o sistema de pontuação que classifica para os playoffs é válido apenas para as equipes da mesma conferência.</p>
+            </div>
+        </section>
+
+        <!-- PLAYOFFS -->
+        <section id="playoffs">
+            <img src="src/media/banner-playoffs.webp" alt="playoffs" class="banner banner-playoffs">
+            <div class="content">
+                <h1>Playoffs</h1>
+                <p>Os playoffs são disputados em séries "melhor de sete" e compostos por 8 times de cada conferência. O primeiro colocado de cada conferência enfrenta o último, o segundo enfrenta o penúltimo, e assim por diante. O vencedor de uma série avança para a próxima rodada.</p>
+                <p>O vencedor dos playoffs de cada conferência recebe o título de campeão da conferência, e os campeões das conferências se enfrentam na série das Finais da NBA.</p>
+                <p>Como cada série é "melhor de sete", um time precisa vencer 4 jogos para passar para a próxima rodada ou ganhar o campeonato.</p>
+            </div>
+        </section>
+
+        <!-- FINAIS -->
+        <section id="finais">
+            <img src="src/media/banner-finais.jpg" alt="final nba" class="banner banner-finais">
+            <div class="content">
+                <h1>Finais</h1>
+                <p>As Finais da NBA são disputadas entre os campeões de cada conferência em uma série "melhor de sete".</p>
+                <p>O time que vencer 4 jogos primeiro é coroado o campeão da NBA.</p>
+                <p>Essa série final é o clímax da temporada e determina qual time é o melhor da NBA.</p>
+                <p>As finais têm uma rica história de grandes momentos e desempenhos lendários.</p>
+            </div>
+        </section>
+
+        <!-- MAIOR CAMPEÃO -->
+        <section id="maior-campeao">
+            <img src="src/media/banner-campeao.jpg" alt="maiores campeões nba" class="banner banner-maior-campeao">
+            <div class="content">
+                <h1>Maior Campeão</h1>
+                <p>Os Boston Celtics e os Los Angeles Lakers são as duas franquias mais bem-sucedidas da história da NBA, com 17 títulos cada um.</p>
+                <p>Os Celtics dominaram as décadas de 1950 e 1960, enquanto os Lakers tiveram sucesso contínuo ao longo das décadas.</p>
+                <p>Esses dois times são frequentemente vistos como os maiores rivais da NBA, devido ao seu sucesso e às suas frequentes batalhas nas Finais.</p>
+            </div>
+        </section>
+
+        <!-- PREMIOS -->
+        <section id="premios">
+            <img src="src/media/banner-premios.jpg" alt="premios nba" class="banner banner-premios">
+            <div class="content">
+                <h1>Prêmios</h1>
+                <p>Ao final de cada temporada, diversos prêmios são distribuídos para jogadores, técnicos e outras personalidades da liga.</p>
+                <p>Os prêmios mais importantes incluem:</p>
+                <ul>
+                    <li>Jogador Mais Valioso (MVP)</li>
+                    <li>Calouro do Ano</li>
+                    <li>Defensor do Ano</li>
+                    <li>Melhor Sexto Homem</li>
+                    <li>Jogador que Mais Evoluiu</li>
+                    <li>Técnico do Ano</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ALL-STAR GAME -->
+        <section id="all-star">
+            <img src="src/media/banner-all-star.jpg" alt="all-star game" class="banner banner-all-star">
+            <div class="content">
+                <h1>ALL-STAR Game</h1>
+                <p>O NBA All-Star Game é um evento anual que ocorre em fevereiro e reúne os melhores jogadores de cada temporada para um jogo de exibição.</p>
+                <p>É uma celebração de uma semana inteira que inclui competições de habilidades, como o torneio de enterradas e o torneio de três pontos.</p>
+                <p>O All-Star Game é uma oportunidade para os fãs verem os maiores talentos da liga competindo em um ambiente mais descontraído e divertido.</p>
+            </div>
+        </section>
+
+        <!-- COLLABS -->
+        <section id="collabs">
+            <div class="content">
+                <h1>COLLABS</h1>
+                <p>O crescimento da liga e do basquete no cenário mundial, mesmo onde não há uma forte tradição esportiva, é resultado do planejamento e organização dos gestores da NBA, que sempre buscaram "inovar".</p>
+                <p>Além do pioneirismo da liga ao introduzir um ambiente de inovação tecnológica nos Estados Unidos, a NBA também desenvolveu, ao longo dos anos, projetos estratégicos em conjunto com grandes marcas do mercado, como Nike, Adidas, Puma, Reebok, Gatorade, Pepsi e outras.</p>
+            </div>
+            <img src="src/media/banner-collabs.jpg" alt="colaborações nba" class="banner banner-collabs">
+        </section>
+    </main>
+    
+    <!-- RODAPÉ-->
+    <footer>
+        <p>Desenvolvido por <br> Daniel Batista e Pedro Henrique <br> © 2024 - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
