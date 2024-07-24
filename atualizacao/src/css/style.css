@@ -48,3 +48,62 @@ header {
     padding: 0 2rem; 
 }
 
+/* BOTOES PLAY E PAUSE */
+.btn-play {
+    display: none;
+}
+.btn-play, .btn-pause { 
+    position: fixed;
+    left: 0;
+    margin-left: 15px;
+    padding: 3px;
+    border-spacing: 50px;
+    margin-top: 70px;
+    width: 50px;
+    border-radius: 30%;
+    border: 3px solid var(--color-black);
+}
+
+/* MENU DO CABECALHO */
+.menu-desktop {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-around;    
+    padding: 2px;
+}
+.menu-desktop nav ul, .btn-site-nba {
+    display: flex; 
+    gap: 2rem; 
+    font-size: 14px; 
+    font-weight: 600;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+/* LINKS NO MENU DO CABECALHO */
+.menu-desktop nav ul li a {
+    color: var(--color-text-primary); 
+}
+.menu-desktop a:hover {
+    background-color: var(--color-btn-nba);
+    color: var(--color-black);
+    border-radius: 5px;
+    padding: 7px;
+    /* transition: .2s step-start; */
+    border-bottom: none; 
+}
+
+/* BOTAO SITE NBA */
+.btn-site-nba {
+    background-color: var(--color-btn-nba);
+    border-radius: 5px;
+    padding: 7px;
+}
+.menu-desktop, .btn-site-nba a {
+    color: var(--color-black);
+}
+.menu-desktop, .btn-site-nba a:hover {
+    transition: .2s step-start;
+    font-weight: 900;
+}
